@@ -20,7 +20,7 @@ jobs:
         uses: SpicyPizza/create-envfile@v2.0
         with:
           envkey_PORT: 8000
-          directory: .env
+          directory: .
           filename: .env
       - name: Build and push Docker image
         run: |
